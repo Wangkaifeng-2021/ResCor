@@ -1,0 +1,17 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# IDE 文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 其他常见忽略项
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.log
+*.sqlite3

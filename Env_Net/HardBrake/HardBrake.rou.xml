@@ -1,0 +1,34 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType accel="5.0" carFollowModel="IDM" decel="5.0" id="AV" laneChangeModel="SL2015" length="5.00" speedFactor="norm(1.00,0.00)" />
+    <vType accel="5.0" carFollowModel="IDM" decel="10.0" id="HV" laneChangeModel="SL2015" length="5.00" />
+
+    <vehicle color="0,0,1" depart="0.00" departLane="1" departPos="10.0" departSpeed="6.94" id="AV_0.0" insertionChecks="collision" type="AV">
+      <route edges="E0" />
+    </vehicle>
+    <vehicle color="0,1,0" depart="0.00" departLane="1" departPos="30.0" departSpeed="6.43" id="HV_0.0" insertionChecks="collision" type="HV">
+      <route edges="E0" />
+    </vehicle>
+
+    <vehicle color="0,0,1" depart="0.00" departLane="0" departPos="5.0" departSpeed="6.83" id="AV_1.0" insertionChecks="collision" type="AV">
+      <route edges="E0" />
+    </vehicle>
+    <vehicle color="0,1,0" depart="0.00" departLane="2" departPos="62.4" departSpeed="5.47" id="HV_1.0" insertionChecks="collision" type="HV">
+      <route edges="E0" />
+    </vehicle>
+    <vehicle color="0,1,0" depart="0.00" departLane="0" departPos="92.01" departSpeed="3.2" id="HV_1.1" insertionChecks="collision" type="HV">
+      <route edges="E0" />
+    </vehicle>
+    <vehicle color="0,1,0" depart="0.00" departLane="1" departPos="85.18" departSpeed="6.85" id="HV_1.2" insertionChecks="collision" type="HV">
+      <route edges="E0" />
+    </vehicle>
+    <vehicle color="0,1,0" depart="0.00" departLane="1" departPos="111.13" departSpeed="5.52" id="HV_1.3" insertionChecks="collision" type="HV">
+      <route edges="E0" />
+    </vehicle>
+    <vehicle color="0,1,0" depart="0.00" departLane="2" departPos="111.19" departSpeed="1.4" id="HV_1.4" insertionChecks="collision" type="HV">
+      <route edges="E0" />
+    </vehicle>
+    <vehicle color="0,1,0" depart="0.00" departLane="2" departPos="90.33" departSpeed="3.43" id="HV_1.5" insertionChecks="collision" type="HV">
+      <route edges="E0" />
+    </vehicle>
+</routes>
